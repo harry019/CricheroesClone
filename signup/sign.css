@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+form{
+    height: 300px;
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#username, #password {
+    border: none;
+    border-bottom: 2px solid #333;
+    background-color: transparent; 
+    font-size: 16px;
+    outline: none; 
+    width: 100%;
+    box-sizing: border-box; 
+  }
+
+#username:focus {
+    border-bottom-color: #bd4233;
+}
+
+#password:focus {
+    border-bottom-color: #bd4233;
+  }
+
+button{
+    height: 30px;
+    width: 30%;
+    border: none;
+    border-radius: 10px;
+    background-color: #bd4233;
+}
+
+.tc{
+    font-size: smaller;
+}
+
+.image{
+    width: 70%;
+    height: inherit;
+}
+
+.image img{
+    overflow: hidden;
+    width: 100%;
+    height: inherit;
+}
+
+

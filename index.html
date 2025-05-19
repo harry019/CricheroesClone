@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRIC HEROES</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <header>
+        <div class="left logo">
+            <img src="https://cricheroes-media-mumbai.s3.ap-south-1.amazonaws.com/cricheroes_website_new/images/other/cricheroes-logo@2x.png?width=1920&quality=75&format=auto"
+                alt="">
+            <div class="info">
+                <p>cric<span>heroes</span> <sup>TM</sup> </p>
+                <p>Your cricket matters</p>
+            </div>
+        </div>
+        <div class="right links">
+            <ul>
+                <li class="dropdown">
+                    <p>Live Score <i class="fa-solid fa-sort-down"></i></p>
+                    <ul class="dropdown-menu">
+                        <li>Matches</li>
+                        <li>Tournament</li>
+                        <li>Association</li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <p>Add ons <i class="fa-solid fa-sort-down"></i></p>
+                    <ul class="dropdown-menu">
+                        <li>Community</li>
+                        <li>Market</li>
+                        <li>Looking</li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <p>Network <i class="fa-solid fa-sort-down"></i></p>
+                    <ul class="dropdown-menu">
+                        <li>Cricheroes Pro</li>
+                        <li class="dropdown" id="golive">
+                            Go Live
+                            <ul class="dropdown-menu right-side" id="rside">
+                                <li>With Camera</li>
+                                <li>With Phone</li>
+                            </ul>
+                        </li>
+                        <li>Your App</li>
+                        <li>Your Web</li>
+                        <li>Power Promote</li>
+                        <li>Super Sponsor</li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <p>More <i class="fa-solid fa-sort-down"></i></p>
+                    <ul class="dropdown-menu">
+                        <li>Tournament Guide</li>
+                        <li>Cricket Tips</li>
+                        <li>News</li>
+                        <li>FAQs</li>
+                        <li>Blog</li>
+                        <li>Organize Tournament</li>
+                        <li>Awards</li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Store</p>
+                </li>
+                <li>
+                    <p>Jobs</p>
+                </li>
+                <li>
+                    <p>Contact us</p>
+                </li>
+
+                <li><i class="fa-brands fa-app-store-ios fa-flip ht store" style="color: #74C0FC; font-size: 25px;"></i>
+                </li>
+                <li><i class="fa-brands fa-google-play fa-flip ht store" style="font-size: 25px;"></i></li>
+                <li><a target="_self" href="signup/sign.html"><button id="signinbtn">SIGN IN</button></a></li>
+                <li><i class="fa-solid fa-magnifying-glass hts" style="font-size: 15px;"></i></li>
+            </ul>
+        </div>
+    </header>
+    <!-- navbar ends -->
+
+    <section>
+        <div class="page1">
+            <img id="bgimg"
+                src="https://www.hindustantimes.com/ht-img/img/2025/03/08/550x309/Rohit-Sharma-plays-a-shot-during-the-ICC-Champions_1741450071042.jpg"
+                alt="">
+            <div class="bgred"></div>
+            <div class="content">
+                <div class="head">
+                    <p class="head1">
+                        Making <b>grassroots cricket</b> better;
+                    </p>
+                    <p class="head2">
+                        one match at a time.
+                    </p>
+                </div>
+                <p class="subhead">
+                    Download the award winning app and start <b>scoring for free.</b>
+                </p>
+                <div class="formob"></div>
+
+                <div class="ratings">
+                    <div class="box">
+                        <img class="appimg"
+                            src="https://cricheroes-media-mumbai.s3.ap-south-1.amazonaws.com/cricheroes_website_new/images/logos/playStore.png?width=1920&quality=75&format=auto"
+                            alt="">
+
+                        <div class="ratedeatils">
+                            <img src="https://cricheroes-media-mumbai.s3.ap-south-1.amazonaws.com/server_images/website_images/editors-choice-icon-home.png?width=128&quality=75&format=auto"
+                                alt="">
+                            <div class="numbers">
+                                <p>4.8 Rating</p>
+                                <p>22M+ Downloads</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img class="appimg"
+                            src="https://cricheroes-media-mumbai.s3.ap-south-1.amazonaws.com/cricheroes_website_new/images/logos/appStore.png?width=1920&quality=75&format=auto"
+                            alt="">
+
+                        <div class="ratedeatils">
+                            <img src="https://cricheroes-media-mumbai.s3.ap-south-1.amazonaws.com/server_images/website_images/rating_new.png?width=128&quality=75&format=auto"
+                                alt="">
+                            <div class="numbers">
+                                <p>4.7 Ratings</p>
+                                <p>3M+ Downloads</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featuredin">
+                    <div class="feathead">
+                        <p>FEATURED IN ---</p>
+                    </div>
+                    <div class="features">
+                        <img class="featimg"
+                            src="https://cricheroes-media-mumbai.s3.ap-south-1.amazonaws.com/cricheroes_website_new/cii_final_new.jpg?width=1920&quality=75&format=auto"
+                            alt="">
+                        <img class="featimg"
+                            src="https://cricheroes-media-mumbai.s3.ap-south-1.amazonaws.com/cricheroes_website_new/home/fe-3.png?width=1920&quality=75&format=auto"
+                            alt="">
+                        <img class="featimg"
+                            src="https://cricheroes-media-mumbai.s3.ap-south-1.amazonaws.com/cricheroes_website_new/home/fe-2.png?width=1920&quality=75&format=auto"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="page2">
+            <div id="headpage2">
+                <p>Why CricHeroes?</p>
+            </div>
+            <div id="content">
+                <div id="whycric">
+                    <div id="right">
+                        <div class="points"
+                            data-image="https://media.cricheroes.in/cricheroes_website_new/why-cricheres-featuers-images-1.png?width=3840&quality=100&format=auto">
+                            <div class="aboutpoint">
+                                <p class="head">Live Scoring</p>
+                                <p class="about">Get instant updates on ongoing matches with Live Scoring.</p>
+                            </div>
+                            <div class="rightpoint">
+                                <p class="pointno">01</p>
+                            </div>
+                        </div>
+
+                        <div class="points"
+                            data-image="https://media.cricheroes.in/cricheroes_website_new/why-cricheres-featuers-images-2.png?width=3840&quality=100&format=auto">
+                            <div class="aboutpoint">
+                                <p class="head">Scorecard</p>
+                                <p class="about">Explore player performances and match outcomes with a Professional
+                                    Scorecard.</p>
+                            </div>
+                            <div class="rightpoint">
+                                <p class="pointno">02</p>
+                            </div>
+                        </div>
+
+                        <div class="points"
+                            data-image="https://media.cricheroes.in/cricheroes_website_new/why-cricheres-featuers-images-3.png?width=3840&quality=100&format=auto">
+                            <div class="aboutpoint">
+                                <p class="head">Organise Tournaments</p>
+                                <p class="about">Seamlessly Organise Tournaments and plan them better.</p>
+                            </div>
+                            <div class="rightpoint">
+                                <p class="pointno">03</p>
+                            </div>
+                        </div>
+
+                        <div class="points"
+                            data-image="https://media.cricheroes.in/cricheroes_website_new/why-cricheres-featuers-images-4.png?width=3840&quality=100&format=auto">
+                            <div class="aboutpoint">
+                                <p class="head">Live Streaming</p>
+                                <p class="about">Get real-time cricket match updates with Live Streaming.</p>
+                            </div>
+                            <div class="rightpoint">
+                                <p class="pointno">04</p>
+                            </div>
+                        </div>
+
+                        <div class="points"
+                            data-image="https://media.cricheroes.in/cricheroes_website_new/why-cricheres-featuers-images-5.png?width=3840&quality=100&format=auto">
+                            <div class="aboutpoint">
+                                <p class="head">The Dressing Room</p>
+                                <p class="about">Explore customised merchandise and equipments with The Dressing Room.
+                                </p>
+                            </div>
+                            <div class="rightpoint">
+                                <p class="pointno">05</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="center">
+                        <img id="feature-image" src="" alt="">
+                    </div>
+
+                    <div id="left">
+                        <div class="points"
+                            data-image="https://media.cricheroes.in/cricheroes_website_new/why-cricheres-featuers-images-6.png?width=3840&quality=100&format=auto">
+                            <div class="leftpoint">
+                                <p class="pointno">06</p>
+                            </div>
+                            <div class="aboutpoint">
+                                <p class="lefthead">Leaderboards</p>
+                                <p class="leftabout">Track and compare your cricket stats with other players.</p>
+                            </div>
+                        </div>
+
+                        <div class="points"
+                            data-image="https://media.cricheroes.in/cricheroes_website_new/why-cricheres-featuers-images-7.png?width=3840&quality=100&format=auto">
+                            <div class="leftpoint">
+                                <p class="pointno">07</p>
+                            </div>
+                            <div class="aboutpoint">
+                                <p class="lefthead">CricInsights</p>
+                                <p class="leftabout">Get in-depth analysis of matches, players and opponents.</p>
+                            </div>
+                        </div>
+
+                        <div class="points"
+                            data-image="https://media.cricheroes.in/cricheroes_website_new/why-cricheres-featuers-images-8.png?width=3840&quality=100&format=auto">
+                            <div class="leftpoint">
+                                <p class="pointno">08</p>
+                            </div>
+                            <div class="aboutpoint">
+                                <p class="lefthead">Highlights</p>
+                                <p class="leftabout">AI-Generated Highlights for your live stream matches.</p>
+                            </div>
+                        </div>
+
+                        <div class="points"
+                            data-image="https://media.cricheroes.in/cricheroes_website_new/why-cricheres-featuers-images-9.png?width=3840&quality=100&format=auto">
+                            <div class="leftpoint">
+                                <p class="pointno">09</p>
+                            </div>
+                            <div class="aboutpoint">
+                                <p class="lefthead">Looking</p>
+                                <p class="leftabout">Find players, opponent teams, umpires and scorers.</p>
+                            </div>
+                        </div>
+
+                        <div class="points"
+                            data-image="https://media.cricheroes.in/cricheroes_website_new/why-cricheres-featuers-images-10.png?width=3840&quality=100&format=auto">
+                            <div class="leftpoint">
+                                <p class="pointno">10</p>
+                            </div>
+                            <div class="aboutpoint">
+                                <p class="lefthead">Cricket Community</p>
+                                <p class="leftabout">Enter the world of the entire Cricket Community.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="page3">
+            <div class="DressingRoom">
+                <div class="Dressingleft">
+                    <div class="roomlogo">
+                        <img src="tdr_tm_by_cricheroes_tm.webp" alt="">
+                    </div>
+                    <div class="title">
+                        <p>A store by CricHeroes to celebrate
+                            your passion for cricket.</p>
+                    </div>
+                    <div class="buttons">
+                        <button>Explore Now</button>
+                    </div>
+                </div>
+                <div class="dressingright">
+                    <div class="img">
+                        <img src="tdr_web_banner.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="page4">
+            <div class="cricnumbers">
+                <div class="numhead">
+                    <p>CricHeroes in Numbers</p>
+                </div>
+                <div class="numbersbox">
+                    <div class="numbox">
+                        <p>17th</p>
+                        <p>OCT 2016</p>
+                        <p>First Match Scored</p>
+                    </div>
+                    <div class="numbox">
+                        <p>12M+</p>
+                        <p>MATCHES</p>
+                        <p>Scored so far</p>
+                    </div>
+                    <div class="numbox">
+                        <p>690k+</p>
+                        <p>TOURNAMENTS</p>
+                        <p>Covered so far</p>
+                    </div>
+                    <div class="numbox">
+                        <p>38.2M+</p>
+                        <p>PLAYERS</p>
+                        <p>Registered so far</p>
+                    </div>
+                </div>
+                <div class="numbottom">
+                    <p>Join World's Largest Cricket Network.</p>
+                    <button>GET APP</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="page5">
+            <div class="tagline">
+                <div class="yourcricketmattersbgm">
+                    <img src="your-cricket-matters-bg.png" alt="">
+                </div>
+                <div class="yourcricketmattersup">
+                    <p>Every cricket story holds a special place</p>
+                    <p>in our hearts and that’s why</p>
+                    <p>Your Cricket Matters</p>
+                    <iframe width="100%" height="100%"
+                        src="https://www.youtube.com/embed/-1TdUlp4adE?si=bI5oJ5SaykD9yCJ3"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen="" title="Embedded youtube"></iframe>
+                    <p>Introducing our new tagline</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="page6">
+            <div class="feturedanduser">
+                <div class="featuredincrousel">
+                    <div class="featuredinhead">
+                        <p>Featured In</p>
+                    </div>
+                    <div class="carousel-container" id="carousel3">
+                        <div class="carousel">
+                            <img src="https://media.cricheroes.in/server_images/website_images/feature_cricheroes/middlestump.jpg?width=3840&quality=75&format=auto"
+                                alt="Image 1">
+                            <img src="https://media.cricheroes.in/server_images/website_images/feature_cricheroes/yourstory.png?width=3840&quality=75&format=auto"
+                                alt="Image 2">
+                            <img src="https://media.cricheroes.in/server_images/website_images/feature_cricheroes/eChai.png?width=3840&quality=75&format=auto"
+                                alt="Image 3">
+                            <img src="https://media.cricheroes.in/server_images/website_images/feature_cricheroes/thebridge.png?width=3840&quality=75&format=auto"
+                                alt="Image 4">
+                            <img src="https://media.cricheroes.in/server_images/website_images/feature_cricheroes/deccan-herald.png?width=3840&quality=75&format=auto"
+                                alt="Image 5">
+                        </div>
+                        <div class="radio-controls">
+                            <input type="radio" name="carousel3" id="img1" checked>
+                            <label for="img1"></label>
+                            <input type="radio" name="carousel3" id="img2">
+                            <label for="img2"></label>
+                            <input type="radio" name="carousel3" id="img3">
+                            <label for="img3"></label>
+                            <input type="radio" name="carousel3" id="img4">
+                            <label for="img4"></label>
+                            <input type="radio" name="carousel3" id="img5">
+                            <label for="img5"></label>
+                        </div>
+                        <button class="carousel-btn prev">⟨</button>
+                        <button class="carousel-btn next">⟩</button>
+                    </div>
+                </div>
+                <div class="userlove">
+                    <div class="userlovehead">
+                        <p>User Love</p>
+                    </div>
+                    <div class="carousel-container-featured">
+                        <div class="carousel-featured" id="carousel-featured-track">
+                            <img src="https://media.cricheroes.in/server_images/website_images/feature_cricheroes/middlestump.jpg?width=3840&quality=75&format=auto"
+                                alt="Image 1">
+                            <img src="https://media.cricheroes.in/server_images/website_images/feature_cricheroes/yourstory.png?width=3840&quality=75&format=auto"
+                                alt="Image 2">
+                            <img src="https://media.cricheroes.in/server_images/website_images/feature_cricheroes/eChai.png?width=3840&quality=75&format=auto"
+                                alt="Image 3">
+                            <img src="https://media.cricheroes.in/server_images/website_images/feature_cricheroes/thebridge.png?width=3840&quality=75&format=auto"
+                                alt="Image 4">
+                            <img src="https://media.cricheroes.in/server_images/website_images/feature_cricheroes/deccan-herald.png?width=3840&quality=75&format=auto"
+                                alt="Image 5">
+                        </div>
+
+                        <div class="radio-controls-featured">
+                            <input type="radio" name="carousel-featured" id="carousel-featured-img1" checked>
+                            <label for="carousel-featured-img1"></label>
+                            <input type="radio" name="carousel-featured" id="carousel-featured-img2">
+                            <label for="carousel-featured-img2"></label>
+                            <input type="radio" name="carousel-featured" id="carousel-featured-img3">
+                            <label for="carousel-featured-img3"></label>
+                            <input type="radio" name="carousel-featured" id="carousel-featured-img4">
+                            <label for="carousel-featured-img4"></label>
+                            <input type="radio" name="carousel-featured" id="carousel-featured-img5">
+                            <label for="carousel-featured-img5"></label>
+                        </div>
+                        <button class="carousel-btn-featured prev-featured">⟨</button>
+                        <button class="carousel-btn-featured next-featured">⟩</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="page7">
+            <div class="jointeam">
+                <div class="jointeamhead">
+                    <p>Join CricHeroes Team</p>
+                </div>
+                <div class="jointeamdet">
+                    <img src="hiring-sec-graphic.webp" alt="">
+                    <div class="textdet">
+                        <p>Love Technology & Sports?</p>
+                        <p>Well, you have already passed the first test! Now just check the available spots and apply.
+                        </p>
+                        <button>CHECK AVAILABLE SPOTS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="foot">
+            <div class="socialmedia">
+                <div class="socialmediahead">
+                    <p>For latest news and updates please</p>
+                    <p>follow us on</p>
+                </div>
+                <div class="socialicons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="footerlinks">
+                <div class="footerlinkshead">
+                    <p>About</p>
+                    <p>Jobs</p>
+                    <p>Privacy Policy</p>
+                    <p>Terms Of Services</p>
+                    <p>Paid Service Terms</p>
+                    <p>ICC policy</p>
+                </div>
+                <div class="line"></div>
+                <div class="copyrights">
+                    <p>© CricHeroes Pvt Ltd. All rights reserved. CIN U72901GJ2016PTC092938</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
